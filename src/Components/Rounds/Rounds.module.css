@@ -1,0 +1,21 @@
+.roundCircle {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 10px;
+    border-radius: 100%;
+    background-color: #fafafa;
+    border: 2px solid #000;
+    transition: background-color 0.3s;
+}
+@media (min-width: 768px){
+    .roundCircle {
+        width: 32px;
+        height: 32px;
+    }
+}
+.roundContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
